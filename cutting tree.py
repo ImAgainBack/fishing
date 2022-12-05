@@ -20,31 +20,18 @@ from PIL import Image
  #player on map coords X: 1740 Y:  167 RGB: (130, 231, 143)
  #player X:  958 Y:  515 RGB: (101, 104, 100)
 
-sleep(2)
-
-
-logs = functions.findlog()
-
-#print(functions.distance(logs)[1])
-
-
-#------------------moving mouse to log---------------------#
+sleep(2) #time to alt tab
 
 while True:
-    functions.giga_loop()
+    functions.giga_loop() #infinite loop
 
-
-        
-
-
-#pg.moveTo(x_player+x_tomove+60, y_player+y_tomove)
 #cv2.imshow('Screenshot', screenshot)
 cv2.waitKey(0)
 cv2.destroyAllWindows 
 
 
 
-
+#random code
 """new_2d=0
 new_val=0
 print(len(logs))
